@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,8 @@
 </head>
 <body>
     <h1>Tic-tac-toe</h1>
-    <div id="grid" class="grid-container">
+    <div id="grid-container">
+    <div id="cell-container">
         <div id="target" class="grid-item"></div>
         <div class="grid-item"></div>
         <div class="grid-item"></div>
@@ -18,7 +19,9 @@
         <div class="grid-item"></div>
         <div class="grid-item"></div>
         <div class="grid-item"></div>
-
+    </div>
+    <h2 id="statusText"></h2>
+    <button id="restartBtn">Restart</button>
     </div>
 
 <script src="tic-tac-toe.js"></script>
