@@ -1,4 +1,4 @@
-  .grid-item {
+.cell{
     width: 75px;
     height: 75px;
     border: 2px solid;
@@ -7,11 +7,11 @@
     font-size: 50px;
     cursor: pointer;
   }
-  #grid-container {
+  #gameContainer{
     font-family: "Permanent Marker", cursive;
     text-align: center;
-  }  
-  #cell-container{
+  }
+  #cellContainer{
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 225px;
